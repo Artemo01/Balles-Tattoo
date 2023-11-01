@@ -1,0 +1,19 @@
+.balles-button {
+  font-size: 26px;
+  background: none;
+  border: none;
+}
+
+.balles-button:hover {
+  text-decoration: underline;
+}
+
+.hidden-image {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .hidden-image {
+    display: none;
+  }
+}
